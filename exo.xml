@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader><fileDesc>
+			<titleStmt>
+				<title> Odyssée, chant IX, vers 379–414</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Document de travail, non publié</p>
+				
+			</publicationStmt>
+			
+			<sourceDesc>
+				<p>Document de travail. Source : 
+				<bibl>Homère, Odyssée, chant IX, vers 379–414, traduction, notes et postface de Philippe JACCOTTET, suivi de Des lieux et des hommes par François Hartog, Paris : Éditions La Découverte, 1982</bibl></p>				
+			</sourceDesc>		
+		</fileDesc><xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20260928195355498",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-09-28T17:53:55.498Z",
+	"dcterms:modified": "2026-09-28T17:53:55.498Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/emmamorlock",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Emmanuelle Morlock"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20260928195355498#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20260928195355498#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/172873171",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20260928195437747",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-09-28T17:54:37.747Z",
+	"dcterms:modified": "2026-09-28T18:10:52.160Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/emmamorlock",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Emmanuelle Morlock"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20260928195437747#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20260928195437747#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://www.wikidata.org/entity/Q34201",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><xenoData/><encodingDesc>
+			<projectDesc>
+				<p>This template is made available for use with the LEAF-Writer semantic editor.</p>
+			</projectDesc>		
+		</encodingDesc><revisionDesc>
+			<change when="2026-09-29" who="emmanuelle_morlock">Exercice de modélisation TEI</change>
+			<change when="2025-06-04" who="diane_jakacki">Revised blank template for use with LEAF-Writer editor.</change>
+		</revisionDesc></teiHeader>
+	<text>
+		<body><div><head>Odyssée, chant IX, vers 379–414</head><p><lb/>Partout sur la paupière et le sourcil grillait l’ardeur<lb n="380"/>de la prunelle en feu ; et ses racines grésillaient.Comme quand le forgeron plonge une grande hacheou une doloire dans l’eau froide pour la tremper,le métal siffle, et là gît la force du fer,ainsi son œil sifflait sous l’action du pieu d’oliver.(395) Il poussa un rugissement, la roche en retentit,nous nous enfuîmes apeurés ; alors, il arrachale pieu qu’un sang nombreux salissait de son œil,le jeta loin de lui de ses mains, affolé,et à grands cris héla les Cyclopes qui habitaient(400) dans les grottes des alentours, sur les cimes venteuses.En entendant ses cris, ils accoururent de partoutet, demeurés dehors, lui demandèrent ses ennuis ;« Quel mal t’accable, <persName key="Polyphème, mythologie grecque" ref="http://viaf.org/viaf/172873171">Polyphème</persName>, pour que tu cries ainsidans la céleste nuit, et nous empêches de dormir ?(405) Serait-ce qu’un mortel emmène malgré toi tes bêtes ? Serait-ce qu’on te tue par la ruse ou la force ? »Du fond de l’antre, le grand Polyphème répondit :« Par ruse, et non par force, amis ! Mais qui me tue ? Personne ! »En réponse, on lui dit ces paroles ailées :(410) « Si tu es seul et si personne ne te fait violence,contre la maladie qui vient de <persName key="Zeus" ref="http://www.wikidata.org/entity/Q34201" type="fictional">Zeus</persName>, on ne peut rien.Implore donc plutôt le seigneur Poséidon, ton père ! »Ils s’éloignèrent sur ces mots, et mon âme riaitde les voir abuser par mon nom et par ma personne.
+		</p></div></body>
+	</text>
+</TEI>
