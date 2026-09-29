@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Exercice structure matérielle (page)</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="book" n="9">
+            <div type="exerpt">
+               <head>Odyssée 9, 379-414 - L’épisode de Personne</head>
+               <!-- structure versifiée et début de pages -->
+               <ab>
+                  <pb n="1" facs="page1.png"/>
+                  <cb n="1a"/>
+                  <lb n="3"/>Partout sur la paupière et
+                  <lb n="4"/>le sourcil grillait l’ardeur
+                  <lb n="5"/><milestone unit="verse" n="380"/> de la prunelle en
+                  <lb n="6"/>feu ; et ses racines
+                  <lb n="7"/>grésillaient.
+                  <lb n="8"/>Comme quand le forgeron
+                  <lb n="9"/>plonge une grande hache
+                  <lb n="10"/>ou une doloire dans l’eau
+                  <lb n="11"/>froide pour la tremper,
+                  <lb n="12"/>le métal siffle, et là gît la
+                  <lb n="13"/>force du fer,
+                  <lb n="14"/>ainsi son œil sifflait sous
+                  <lb n="15"/>l’action du pieu d’oliver.
+                  <lb n="16"/><milestone unit="verse" n="395"/> Il poussa un
+                  <lb/>rugissement, la roche en
+                  <lb/>retentit,
+                  <lb/>nous nous enfuîmes
+                  <lb/>apeurés ; alors, il arracha
+                  <lb/>le pieu qu’un sang
+                  <lb/>nombreux salissait de son
+                  <lb/>œil,
+                  <lb/>le jeta loin de lui de ses
+                  <lb/>mains, affolé,
+                  <lb/>et à grands cris héla les
+                  <lb/>Cyclopes qui habitaient
+                  <lb/><milestone unit="verse" n="400"/> dans les grottes des
+                  <lb/>alentours, sur les cimes
+                  <lb/>venteuses. 
+                  <cb n="1b"/>
+                  <lb/>En entendant ses cris, ils
+                  <lb/>accoururent de partout
+                  <lb/>et, demeurés dehors, lui
+                  <lb/>demandèrent ses ennuis ;
+                  <lb/>« Quel mal t’accable,
+                  <lb/>Polyphème, pour que tu
+                  <lb/>cries ainsi
+                  <lb/>dans la céleste nuit, et
+                  <lb/>nous empêches de
+                  <lb/>dormir ?
+                  <lb/><milestone unit="verse" n="405"/> Serait-ce qu’un
+                  <lb/>mortel emmène malgré toi
+                  <lb/>tes bêtes ?
+                  <lb/>Serait-ce qu’on te tue par
+                  <lb/>la ruse ou la force ? »
+                  <lb/>Du fond de l’antre, le
+                  <lb/>grand Polyphème
+                  <lb/>répondit :
+                  <lb/>« Par ruse, et non par
+                  <lb/>force, amis ! Mais qui me
+                  <lb/>tue ? Personne ! »
+                  <lb/>En réponse, on lui dit ces
+                  <lb/>paroles ailées :
+                  <lb/><milestone unit="verse" n="410"/> « Si tu es seul et si
+                  <lb/>personne ne te fait
+                  <lb/>violence,
+                  <lb/>contre la maladie qui vient
+                  <lb/>de Zeus, on ne peut rien. 
+                  <pb n="2"/>
+                  <cb n="2a"/>
+                  <lb/>Implore donc plutôt le
+                  <lb/>seigneur Poséidon, ton
+                  <lb/>père ! »
+                  <cb n="2a"/>
+                  <cb n="2b"/>
+                  <lb/>Ils s’éloignèrent sur ces
+                  <lb/>mots, et mon âme riait
+                  <lb/>de les voir abuser par mon
+                  <lb/>nom et par ma personne
+               </ab>
+              
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
