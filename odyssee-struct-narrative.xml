@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Exercice structure narrative</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!-- rendu des guillemets -->
+         <tagsDecl>
+            <rendition xml:id="guillemetsx" scheme="css" selector="said"> said::before { content: "« "; } said::after { content: " »"; }
+            </rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="book" n="9">
+            <div type="exerpt">
+               <head>Odyssée 9, 379-414 - L’épisode de Personne</head>
+               <!-- structure narrative -->
+               <div>
+                  <head>Odyssée 9, 379-414 - L’épisode de Personne</head>
+                  <p>
+                     <seg ana="#scene">
+                        <lb/>Partout sur la paupière et le sourcil grillait l’ardeur
+                        <lb n="380"/>de la prunelle en feu ; et ses racines grésillaient.</seg>
+                     <seg ana="#comparaison">
+                        <lb/>Comme quand le forgeron plonge une grande hache
+                        <lb/>ou une doloire dans l’eau froide pour la tremper,
+                        <lb/>le métal siffle, et là gît la force du fer,
+                        <lb/>ainsi son œil sifflait sous l’action du pieu d’oliver.</seg>
+                     <seg ana="#scene">
+                        <lb n="395"/>Il poussa un rugissement, la roche en retentit,
+                        <lb/>nous nous enfuîmes apeurés ; alors, il arracha
+                        <lb/>le pieu qu’un sang nombreux salissait de son œil,
+                        <lb/>le jeta loin de lui de ses mains, affolé,
+                        <lb/>et à grands cris héla les <name>Cyclopes</name> qui habitaient
+                        <lb n="400"/> dans les grottes des alentours, sur les cimes venteuses.</seg>
+                     <seg ana="#scene">
+                        <lb/>En entendant ses cris, ils accoururent de partout
+                        <lb/>et, demeurés dehors, lui demandèrent ses ennuis ;</seg>
+                     <seg ana="#discours">
+                        <said who="#cyclopes" aloud="true" direct="true">
+                           <lb/>« Quel mal t’accable, <persName ref="#polypheme">Polyphème</persName>, pour que tu cries ainsi
+                           <lb/>dans la céleste nuit, et nous empêches de dormir ?
+                           <lb n="405"/>Serait-ce qu’un mortel emmène malgré toi tes bêtes ?
+                           <lb/>Serait-ce qu’on te tue par la ruse ou la force ? »</said>
+                     </seg>
+                     <seg ana="#discours">
+                        <said who="#polypheme" direct="true" aloud="true">
+                           <lb/>Du fond de l’antre, <rs type="person" ref="#polypheme">le grand <persName>Polyphème</persName></rs> répondit :
+                           <lb/>« Par ruse, et non par force, amis ! Mais qui me tue ? <persName>Personne</persName> ! »</said>
+                     </seg>
+                     <seg ana="#discours">
+                        <lb/>En réponse, on lui dit ces paroles ailées : <said who="#cyclopes" direct="true" aloud="true">
+                           <lb n="410"/> « Si tu es seul et si personne ne te fait violence,
+                           <lb/>contre la maladie qui vient de <persName type="deity">Zeus</persName>, on ne peut rien.
+                           <lb/>Implore donc plutôt le seigneur <persName type="deity">Poséidon</persName>, <rs type="person">ton père</rs> !
+                           »</said></seg>
+                     <seg ana="#commentaire">
+                        <lb/>Ils s’éloignèrent sur ces mots, et mon âme riait
+                        <lb/>de les voir abuser par mon nom et par ma personne.</seg>
+                  </p>
+               </div>
+              
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Exercice structure narrative</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="book" n="9">
+            <div type="exerpt">
+               <head>Odyssée 9, 379-414 - L’épisode de Personne</head>
+               <!-- structure versifiée -->
+               <lg>
+                  <l>Partout sur la paupière et le sourcil grillait l’ardeur</l>
+                  <l n="380">de la prunelle en feu ; et ses racines grésillaient.</l>
+                  <l>Comme quand le forgeron plonge une grande hache</l>
+                  <l>ou une doloire dans l’eau froide pour la tremper,</l>
+                  <l>le métal siffle, et là gît la force du fer,</l>
+                  <l> ainsi son œil sifflait sous l’action du pieu d’oliver.</l>
+                  <l n="395">Il poussa un rugissement, la roche en retentit, </l>
+                  <l>nous nous enfuîmes apeurés ; alors, il arracha </l>
+                  <l>le pieu qu’un sang nombreux salissait de son œil,</l>
+                  <l>le jeta loin de lui de ses mains, affolé,</l>
+                  <l>et à grands cris héla les Cyclopes qui habitaient</l>
+                  <l n="400">dans les grottes des alentours, sur les cimes venteuses.</l>
+                  <l>En entendant ses cris, ils accoururent de partout</l>
+                  <l>et, demeurés dehors, lui demandèrent ses ennuis ;</l>
+                  <l>« Quel mal t’accable, Polyphème, pour que tu cries ainsi</l>
+                  <l>dans la céleste nuit, et nous empêches de dormir ?</l>
+                  <l n="405">Serait-ce qu’un mortel emmène malgré toi tes bêtes ?</l>
+                  <l>Serait-ce qu’on te tue par la ruse ou la force ? »</l>
+                  <l>Du fond de l’antre, le grand Polyphème répondit :</l>
+                  <l>« Par ruse, et non par force, amis ! Mais qui me tue ? Personne ! »</l>
+                  <l>En réponse, on lui dit ces paroles ailées :</l>
+                  <l n="410">« Si tu es seul et si personne ne te fait violence,</l>
+                  <l>contre la maladie qui vient de Zeus, on ne peut rien.</l>
+                  <l>Implore donc plutôt le seigneur Poséidon, ton père ! »</l>
+                  <l>Ils s’éloignèrent sur ces mots, et mon âme riait</l>
+                  <l>de les voir abuser par mon nom et par ma personne.</l>
+               </lg>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
