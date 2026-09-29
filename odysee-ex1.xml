@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Antiquités numériques Séance 3 - Corrigé de l'exercice</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Homère, Odyssée, chant IX, vers 379–414 traduction, notes et postface de Philippe JACCOTTET, suivi de Des lieux et des hommes par
+               François Hartog, Paris : Éditions La Découverte, 1982. </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="book">
+            <div type="exerpt">
+               <head>Odyssée 9, 379-414 - L’épisode de Personne</head>
+               <!-- structure versifiée -->
+               <lg>
+                  <l>Partout sur la paupière et le sourcil grillait l’ardeur</l>
+                  <l n="380">de la prunelle en feu ; et ses racines grésillaient.</l>
+                  <l>Comme quand le forgeron plonge une grande hache</l>
+                  <l> ou une doloire dans l’eau froide pour la tremper,</l>
+                  <l>le métal siffle, et là gît la force du fer,</l>
+                  <l> ainsi son œil sifflait sous l’action du pieu d’oliver.</l>
+                  <l n="395"> Il poussa un rugissement, la roche en retentit, nous nous enfuîmes</l>
+                  <l>apeurés ; alors, il arracha le pieu qu’un sang nombreux salissait de son œil, le jeta loin de lui de ses mains, affolé, et à
+                     grands cris </l>
+                  <l>héla les Cyclopes qui habitaient (400) dans les grottes des alentours, sur les cimes venteuses. En entendant ses cris, ils
+                     accoururent de </l>
+                  <l>partout et, demeurés dehors, lui demandèrent ses ennuis ; « Quel mal t’accable, Polyphème, pour que tu cries ainsi dans la
+                     céleste nuit, </l>
+                  <l>et nous empêches de dormir ? (405) Serait-ce qu’un mortel emmène malgré toi tes bêtes ? Serait-ce qu’on te tue par la ruse ou la
+                     force ? » </l>
+                  <l>Du fond de l’antre, le grand Polyphème répondit : « Par ruse, et non par force, amis ! Mais qui me tue ? Personne ! » En réponse,
+                     on lui </l>
+                  <l>dit ces paroles ailées : (410) « Si tu es seul et si personne ne te fait violence, contre la maladie qui vient de Zeus, on ne
+                     peut rien. </l>
+                  <l>Implore donc plutôt le seigneur Poséidon, ton père ! » Ils s’éloignèrent sur ces mots, et mon âme riait de les voir abuser par
+                     mon nom et par ma personne. </l>
+               </lg>
+            </div>
+            <!-- structure logique et grammaticcale -->
+            <div>
+               <head>Odyssée 9, 379-414 - L’épisode de Personne</head>
+               <p>
+                  <s>
+                     <w lemma="partout">Partout</w>
+                     <w lemma="sur">sur</w>
+                     <w lemma="le">la</w>
+                     <w lemma="paupière">paupière</w>
+                     <w lemma="et">et</w>
+                     <w lemma="le">le</w>
+                     <w lemma="sourcil">sourcil</w>
+                     <w lemma="griller">grillait</w>
+                     <w lemma="le">l’</w>
+                     <w lemma="ardeur">ardeur</w>
+                     <lb n="380"/>
+                     <w lemma="de">de</w>
+                     <w lemma="le">la</w>
+                     <w lemma="prunelle">prunelle</w>
+                     <w lemma="en">en</w>
+                     <w lemma="feu">feu</w>
+                     <pc>;</pc>
+                     <w lemma="et">et</w>
+                     <w lemma="son">ses</w>
+                     <w lemma="racine">racines</w>
+                     <w lemma="grésiller">grésillaient</w>
+                     <pc>.</pc>
+                  </s>
+                  <s>Comme quand le forgeron plonge une grande hache ou une doloire dans l’eau froide pour la tremper, le métal siffle, et là gît la
+                     force du fer, ainsi son œil sifflait sous l’action du pieu d’oliver.</s>
+                  <s>(395) Il poussa un rugissement, la roche en retentit, nous nous enfuîmes apeurés ; alors, il arracha le pieu qu’un sang nombreux
+                     salissait de son œil, le jeta loin de lui de ses mains, affolé, et à grands cris héla les Cyclopes qui habitaient (400) dans les
+                     grottes des alentours, sur les cimes venteuses.</s>
+                  <s>En entendant ses cris, ils accoururent de partout et, demeurés dehors, lui demandèrent ses ennuis ; « Quel mal t’accable,
+                     Polyphème, pour que tu cries ainsi dans la céleste nuit, et nous empêches de dormir ?</s>
+                  <s>(405) Serait-ce qu’un mortel emmène malgré toi tes bêtes ?</s>
+                  <s>Serait-ce qu’on te tue par la ruse ou la force ? »</s>
+                  <s> Du fond de l’antre, le grand Polyphème répondit : « Par ruse, et non par force, amis ! Mais qui me tue ? Personne ! »</s>
+                  <s>En réponse, on lui dit ces paroles ailées : (410) « Si tu es seul et si personne ne te fait violence, contre la maladie qui vient
+                     de Zeus, on ne peut rien.</s>
+                  <s>Implore donc plutôt le seigneur Poséidon, ton père ! »</s>
+                  <s>Ils s’éloignèrent sur ces mots, et mon âme riait de les voir abuser par mon nom et par ma personne.</s>
+               </p>
+            </div>
+            <!-- structure narrative -->
+            <div>
+               <head>Odyssée 9, 379-414 - L’épisode de Personne</head>
+               <p>
+                  <seg ana="#scene">
+                     <lb/>Partout sur la paupière et le sourcil grillait l’ardeur
+                     <lb n="380"/>de la prunelle en feu ; et ses racines grésillaient.</seg>
+                  <seg ana="#comparaison">
+                     <lb/>Comme quand le forgeron plonge une grande hache
+                     <lb/>ou une doloire dans l’eau froide pour la tremper,
+                     <lb/>le métal siffle, et là gît la force du fer,
+                     <lb/>ainsi son œil sifflait sous l’action du pieu d’oliver.</seg>
+                  <seg ana="#scene">
+                     <lb n="395"/>Il poussa un rugissement, la roche en retentit,
+                     <lb/>nous nous enfuîmes apeurés ; alors, il arracha
+                     <lb/>le pieu qu’un sang nombreux salissait de son œil,
+                     <lb/>le jeta loin de lui de ses mains, affolé,
+                     <lb/>et à grands cris héla les <name>Cyclopes</name> qui habitaient
+                     <lb n="400"/> dans les grottes des alentours, sur les cimes venteuses.</seg>
+                  <seg ana="#scene">
+                     <lb/>En entendant ses cris, ils accoururent de partout
+                     <lb/>et, demeurés dehors, lui demandèrent ses ennuis ;</seg>
+                  <seg ana="#discours">
+                     <said who="#cyclopes" aloud="true" direct="true">
+                        <lb/>« Quel mal t’accable, <persName ref="#polypheme">Polyphème</persName>, pour que tu cries ainsi
+                        <lb/>dans la céleste nuit, et nous empêches de dormir ?
+                        <lb n="405"/>Serait-ce qu’un mortel emmène malgré toi tes bêtes ?
+                        <lb/>Serait-ce qu’on te tue par la ruse ou la force ? »</said>
+                  </seg>
+                  <seg ana="#discours">
+                     <said who="#polypheme" direct="true" aloud="true">
+                        <lb/>Du fond de l’antre, <rs type="person" ref="#polypheme">le grand <persName>Polyphème</persName></rs> répondit :
+                        <lb/>« Par ruse, et non par force, amis ! Mais qui me tue ? <persName>Personne</persName> ! »</said>
+                  </seg>
+                  <seg ana="#discours">
+                     <lb/>En réponse, on lui dit ces paroles ailées : <said who="#cyclopes" direct="true" aloud="true">
+                        <lb n="410"/> « Si tu es seul et si personne ne te fait violence,
+                        <lb/>contre la maladie qui vient de <persName type="deity">Zeus</persName>, on ne peut rien.
+                        <lb/>Implore donc plutôt le seigneur <persName type="deity">Poséidon</persName>, <rs type="person">ton père</rs> !
+                     »</said></seg>
+                  <seg ana="#commentaire">
+                     <lb/>Ils s’éloignèrent sur ces mots, et mon âme riait
+                     <lb/>de les voir abuser par mon nom et par ma personne.</seg>
+               </p>
+               <!-- quelque part dans le document -->
+               <standOff>
+                  <listPerson type="acteurs">
+                     <person xml:id="cyclopes">
+                        <persName>Cyclopes</persName>
+                     </person>
+                     <person xml:id="polypheme">
+                        <persName>Polyphème</persName>
+                        <idno type="wikidata">Q193567</idno>
+                        <idno type="URI">http://www.wikidata.org/entity/Q193567</idno>
+                     </person>
+                  </listPerson>
+               </standOff>
+               <!-- rendu des guillemets -->
+               <tagsDecl>
+                  <rendition xml:id="guillemetsx" scheme="css" selector="said"> said::before { content: "« "; } said::after { content: " »"; }
+                  </rendition>
+               </tagsDecl>
+            </div>
+            <!-- autres balisages -->
+            <div>
+               <head>Odyssée 9, 379-414 - L’épisode de Personne</head>
+               <p>
+                  <s> Partout sur la paupière et le sourcil grillait l’ ardeur
+                     <lb n="380"/> de la prunelle en feu ; et ses racines grésillaient . </s>
+                  <s>Comme quand le forgeron plonge une grande hache ou une doloire dans l’eau froide pour la tremper, le métal siffle, et là gît la
+                     force du fer, ainsi son œil sifflait sous l’action du pieu d’<choice><sic>oliver</sic><corr>olivier</corr></choice>.</s>
+                  <s>
+                     <lb n="395"/> Il poussa un rugissement, la roche en retentit, nous nous enfuîmes apeurés ; alors, il arracha le pieu qu’un sang
+                     nombreux salissait de son œil, le jeta loin de lui de ses mains, affolé, et à grands cris héla les Cyclopes qui habitaient
+                     <lb n="400"/> dans les grottes des alentours, sur les cimes venteuses.</s>
+                  <s>En entendant ses cris, ils accoururent de partout et, demeurés dehors, lui demandèrent ses ennuis ; « Quel mal t’accable,
+                     Polyphème, pour que tu cries ainsi dans la céleste nuit, et nous empêches de dormir ?</s>
+                  <s>
+                     <lb n="405"/>Serait-ce qu’un mortel emmène malgré toi tes bêtes ?</s>
+                  <s>Serait-ce qu’on te tue par la ruse ou la force ? »</s>
+                  <s> Du fond de l’antre, le grand Polyphème répondit : « Par ruse, et non par force, amis ! Mais qui me tue ? Personne ! »</s>
+                  <s>En réponse, on lui dit ces paroles ailées :
+                     <lb n="410"/> « Si tu es seul et si personne ne te fait violence, contre la maladie qui vient de Zeus, on ne peut rien.</s>
+                  <s>Implore donc plutôt le seigneur Poséidon, ton père ! »</s>
+                  <s>Ils s’éloignèrent sur ces mots, et mon âme riait de les voir abuser par mon nom et par ma personne.</s>
+               </p>
+            </div>
+         </div>
+         <!-- structure matérielle de la mise en page -->
+         <div type="exerpt">
+            <head>Odyssée 9, 379-414 - L’épisode de Personne</head>
+            <!-- structure versifiée et début de pages -->
+            <ab>
+               <pb n="1" facs="page1.png"/>
+               <cb n="1a"/>
+               <lb n="3"/>Partout sur la paupière et
+               <lb n="4"/>le sourcil grillait l’ardeur
+               <lb n="5"/><milestone unit="verse" n="380"/> de la prunelle en
+               <lb n="6"/>feu ; et ses racines
+               <lb n="7"/>grésillaient.
+               <lb n="8"/>Comme quand le forgeron
+               <lb n="9"/>plonge une grande hache
+               <lb n="10"/>ou une doloire dans l’eau
+               <lb n="11"/>froide pour la tremper,
+               <lb n="12"/>le métal siffle, et là gît la
+               <lb n="13"/>force du fer,
+               <lb n="14"/>ainsi son œil sifflait sous
+               <lb n="15"/>l’action du pieu d’oliver.
+               <lb n="16"/><milestone unit="verse" n="395"/> Il poussa un
+               <lb/>rugissement, la roche en
+               <lb/>retentit,
+               <lb/>nous nous enfuîmes
+               <lb/>apeurés ; alors, il arracha
+               <lb/>le pieu qu’un sang
+               <lb/>nombreux salissait de son
+               <lb/>œil,
+               <lb/>le jeta loin de lui de ses
+               <lb/>mains, affolé,
+               <lb/>et à grands cris héla les
+               <lb/>Cyclopes qui habitaient
+               <lb/><milestone unit="verse" n="400"/> dans les grottes des
+               <lb/>alentours, sur les cimes
+               <lb/>venteuses. 
+               <cb n="1b"/>
+               <lb/>En entendant ses cris, ils
+               <lb/>accoururent de partout
+               <lb/>et, demeurés dehors, lui
+               <lb/>demandèrent ses ennuis ;
+               <lb/>« Quel mal t’accable,
+               <lb/>Polyphème, pour que tu
+               <lb/>cries ainsi
+               <lb/>dans la céleste nuit, et
+               <lb/>nous empêches de
+               <lb/>dormir ?
+               <lb/><milestone unit="verse" n="405"/> Serait-ce qu’un
+               <lb/>mortel emmène malgré toi
+               <lb/>tes bêtes ?
+               <lb/>Serait-ce qu’on te tue par
+               <lb/>la ruse ou la force ? »
+               <lb/>Du fond de l’antre, le
+               <lb/>grand Polyphème
+               <lb/>répondit :
+               <lb/>« Par ruse, et non par
+               <lb/>force, amis ! Mais qui me
+               <lb/>tue ? Personne ! »
+               <lb/>En réponse, on lui dit ces
+               <lb/>paroles ailées :
+               <lb/><milestone unit="verse" n="410"/> « Si tu es seul et si
+               <lb/>personne ne te fait
+               <lb/>violence,
+               <lb/>contre la maladie qui vient
+               <lb/>de Zeus, on ne peut rien. 
+               <pb n="2"/>
+               <cb n="2a"/>
+               <lb/>Implore donc plutôt le
+               <lb/>seigneur Poséidon, ton
+               <lb/>père ! »
+               <cb n="2a"/>
+               <cb n="2b"/>
+               <lb/>Ils s’éloignèrent sur ces
+               <lb/>mots, et mon âme riait
+               <lb/>de les voir abuser par mon
+               <lb/>nom et par ma personne
+            </ab>
+         </div>
+
+      </body>
+   </text>
+</TEI>
