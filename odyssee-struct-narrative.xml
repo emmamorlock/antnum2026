@@ -29,8 +29,6 @@
             <div type="exerpt">
                <head>Odyssée 9, 379-414 - L’épisode de Personne</head>
                <!-- structure narrative -->
-               <div>
-                  <head>Odyssée 9, 379-414 - L’épisode de Personne</head>
                   <p>
                      <seg ana="#scene">
                         <lb/>Partout sur la paupière et le sourcil grillait l’ardeur
@@ -72,7 +70,6 @@
                         <lb/>Ils s’éloignèrent sur ces mots, et mon âme riait
                         <lb/>de les voir abuser par mon nom et par ma personne.</seg>
                   </p>
-               </div>
               
             </div>
          </div>
