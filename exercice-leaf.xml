@@ -27,7 +27,7 @@
 		<body>
 			<div><head>
 				titre
-			</head></div>
+			</head><p>lorem ipsum</p></div>
 		</body>
 	</text>
 </TEI>
