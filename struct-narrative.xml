@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Blank Document Template</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Collaboratory for Writing and Research on Culture (CWRC https://cwrc.ca) and Linked Editing Academic Framework (LEAF https://leaf-vre.org).</publisher>
+				<availability>
+					<licence>Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>This template was created by members of CWRC and LEAF.</p>				
+			</sourceDesc>		
+		</fileDesc>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><encodingDesc>
+			<projectDesc>
+				<p>This template is made available for use with the LEAF-Writer semantic editor.</p>
+			</projectDesc>		
+		</encodingDesc>
+		<revisionDesc>
+			<change when="2025-06-04" who="diane_jakacki">Revised blank template for use with LEAF-Writer editor.</change>
+		</revisionDesc>
+	</teiHeader>
+	
+	<text>
+		<body>
+			<div>
+               <head>Odyssée 9, 379-414 - L’épisode de Personne</head>
+               <p>
+                  <seg ana="#scene">
+                     <lb/>Partout sur la paupière et le sourcil grillait l’ardeur
+                     <lb n="380"/>de la prunelle en feu ; et ses racines grésillaient.</seg>
+                  <seg ana="#comparaison">
+                     <lb/>Comme quand le forgeron plonge une grande hache
+                     <lb/>ou une doloire dans l’eau froide pour la tremper,
+                     <lb/>le métal siffle, et là gît la force du fer,
+                     <lb/>ainsi son œil sifflait sous l’action du pieu d’oliver.</seg>
+                  <seg ana="#scene">
+                     <lb n="395"/>Il poussa un rugissement, la roche en retentit,
+                     <lb/>nous nous enfuîmes apeurés ; alors, il arracha
+                     <lb/>le pieu qu’un sang nombreux salissait de son œil,
+                     <lb/>le jeta loin de lui de ses mains, affolé,
+                     <lb/>et à grands cris héla les <name>Cyclopes</name> qui habitaient
+                     <lb n="400"/> dans les grottes des alentours, sur les cimes venteuses.</seg>
+                  <seg ana="#scene">
+                     <lb/>En entendant ses cris, ils accoururent de partout
+                     <lb/>et, demeurés dehors, lui demandèrent ses ennuis ;</seg>
+                  <seg ana="#discours">
+                     <said who="#cyclopes" aloud="true" direct="true">
+                        <lb/>« Quel mal t’accable, <persName ref="#polypheme">Polyphème</persName>, pour que tu cries ainsi
+                        <lb/>dans la céleste nuit, et nous empêches de dormir ?
+                        <lb n="405"/>Serait-ce qu’un mortel emmène malgré toi tes bêtes ?
+                        <lb/>Serait-ce qu’on te tue par la ruse ou la force ? »</said>
+                  </seg>
+                  <seg ana="#discours">
+                     <said who="#polypheme" direct="true" aloud="true">
+                        <lb/>Du fond de l’antre, <rs type="person" ref="#polypheme">le grand <persName>Polyphème</persName></rs> répondit :
+                        <lb/>« Par ruse, et non par force, amis ! Mais qui me tue ? <persName>Personne</persName> ! »</said>
+                  </seg>
+                  <seg ana="#discours">
+                     <lb/>En réponse, on lui dit ces paroles ailées : <said who="#cyclopes" direct="true" aloud="true">
+                        <lb n="410"/> « Si tu es seul et si personne ne te fait violence,
+                        <lb/>contre la maladie qui vient de <persName type="deity">Zeus</persName>, on ne peut rien.
+                        <lb/>Implore donc plutôt le seigneur <persName type="deity">Poséidon</persName>, <rs type="person">ton père</rs> !
+                     »</said></seg>
+                  <seg ana="#commentaire">
+                     <lb/>Ils s’éloignèrent sur ces mots, et mon âme riait
+                     <lb/>de les voir abuser par mon nom et par ma personne.</seg>
+               </p>
+			   </div>
+		</body>
+	</text>
+<standOff xmlns="http://www.tei-c.org/ns/1.0">
+                  <listPerson type="acteurs">
+                     <person xml:id="cyclopes">
+                        <persName>Cyclopes</persName>
+                     </person>
+                     <person xml:id="polypheme">
+                        <persName>Polyphème</persName>
+                        <idno type="wikidata">Q193567</idno>
+                        <idno type="URI">http://www.wikidata.org/entity/Q193567</idno>
+                     </person>
+                  </listPerson>
+               </standOff></TEI>
