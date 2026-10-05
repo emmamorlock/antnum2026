@@ -23,7 +23,11 @@
                <head>Odyssée 9, 379-414 - L’épisode de Personne</head>
                <!-- structure versifiée et début de pages -->
                <ab>
+<<<<<<< HEAD
                   <pb n="1" facs="page1.png"/>
+=======
+                  <pb n="1"/>
+>>>>>>> ce7ab4b5f4aed5d95d3a35dae31f8cdf9f2b45c5
                   <cb n="1a"/>
                   <lb n="3"/>Partout sur la paupière et
                   <lb n="4"/>le sourcil grillait l’ardeur

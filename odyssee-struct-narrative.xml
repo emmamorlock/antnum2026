@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+=======
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+>>>>>>> ce7ab4b5f4aed5d95d3a35dae31f8cdf9f2b45c5
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -15,6 +19,7 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
+<<<<<<< HEAD
       <encodingDesc>
          <!-- rendu des guillemets -->
          <tagsDecl>
@@ -23,11 +28,15 @@
          </tagsDecl>
       </encodingDesc>
    </teiHeader>
+=======
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+>>>>>>> ce7ab4b5f4aed5d95d3a35dae31f8cdf9f2b45c5
    <text>
       <body>
          <div type="book" n="9">
             <div type="exerpt">
                <head>Odyssée 9, 379-414 - L’épisode de Personne</head>
+<<<<<<< HEAD
                <!-- structure narrative -->
                <div>
                   <head>Odyssée 9, 379-414 - L’épisode de Personne</head>
@@ -74,8 +83,43 @@
                   </p>
                </div>
               
+=======
+               <!-- structure versifiée -->
+               <lg>
+                  <l>Partout sur la paupière et le sourcil grillait l’ardeur</l>
+                  <l n="380">de la prunelle en feu ; et ses racines grésillaient.</l>
+                  <l>Comme quand le forgeron plonge une grande hache</l>
+                  <l>ou une doloire dans l’eau froide pour la tremper,</l>
+                  <l>le métal siffle, et là gît la force du fer,</l>
+                  <l> ainsi son œil sifflait sous l’action du pieu d’oliver.</l>
+                  <l n="395">Il poussa un rugissement, la roche en retentit, </l>
+                  <l>nous nous enfuîmes apeurés ; alors, il arracha </l>
+                  <l>le pieu qu’un sang nombreux salissait de son œil,</l>
+                  <l>le jeta loin de lui de ses mains, affolé,</l>
+                  <l>et à grands cris héla les Cyclopes qui habitaient</l>
+                  <l n="400">dans les grottes des alentours, sur les cimes venteuses.</l>
+                  <l>En entendant ses cris, ils accoururent de partout</l>
+                  <l>et, demeurés dehors, lui demandèrent ses ennuis ;</l>
+                  <l>« Quel mal t’accable, Polyphème, pour que tu cries ainsi</l>
+                  <l>dans la céleste nuit, et nous empêches de dormir ?</l>
+                  <l n="405">Serait-ce qu’un mortel emmène malgré toi tes bêtes ?</l>
+                  <l>Serait-ce qu’on te tue par la ruse ou la force ? »</l>
+                  <l>Du fond de l’antre, le grand Polyphème répondit :</l>
+                  <l>« Par ruse, et non par force, amis ! Mais qui me tue ? Personne ! »</l>
+                  <l>En réponse, on lui dit ces paroles ailées :</l>
+                  <l n="410">« Si tu es seul et si personne ne te fait violence,</l>
+                  <l>contre la maladie qui vient de Zeus, on ne peut rien.</l>
+                  <l>Implore donc plutôt le seigneur Poséidon, ton père ! »</l>
+                  <l>Ils s’éloignèrent sur ces mots, et mon âme riait</l>
+                  <l>de les voir abuser par mon nom et par ma personne.</l>
+               </lg>
+>>>>>>> ce7ab4b5f4aed5d95d3a35dae31f8cdf9f2b45c5
             </div>
          </div>
       </body>
    </text>
+<<<<<<< HEAD
 </TEI>
+=======
+</TEI>
+>>>>>>> ce7ab4b5f4aed5d95d3a35dae31f8cdf9f2b45c5
