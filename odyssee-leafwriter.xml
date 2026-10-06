@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Exercice de balisage TEI - perspective "narrative"</title>
+            <title>Exercice de balisage TEI - pour LEAF Writer</title>
          </titleStmt>
          <publicationStmt>
             <p>Non publié, document de formation</p>
@@ -39,20 +37,9 @@
       </front>
       <body>
          <div type="book" n="9">
-            <div type="passage" n="379">
-               <head>Odyssée 9, 379-414</head>
-               <!-- structure narrative -->
-               <!-- pour leaf-writer : url complète dans @facs de l'élément pg -->
-               <!-- <pb facs="https://upload.wikimedia.org/wikipedia/commons/0/0d/Plate_6-_Ulysses_driving_a_burning_stake_into_Polyphemus%27_eye_Met_DP885436.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original"/>
--->
-               <!-- pour teigarage (https://teigarage.tei-c.org/), charger une version de l'image (ici en 800px) et utiliser cet élément pb-->
-               <!-- <pb facs="Plate_6-_Ulysses_driving_a_burning_stake_into_Polyphemus'_eye_Met_DP885436.jpg"/>-->
-               <figure>
-                  <head>Planche 6 : Ulysse enfonçant un pieu ardent dans l'œil de Polyphème</head>
-                  <figDesc>Imprimé. Bartolomeo Crivellari, dessinateur intermédiaire ; Domenico Maria Fratta, d'après Pellegrino Tibaldi (Metropolitan
-                     Museum of Art, n° d'inv. 62.602.525(1))</figDesc>
-                  <graphic width="800px" url="https://upload.wikimedia.org/wikipedia/commons/0/0d/Plate_6-_Ulysses_driving_a_burning_stake_into_Polyphemus%27_eye_Met_DP885436.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original"/>
-               </figure>
+            <div type="passage" n="379-414">
+               <pb facs="https://upload.wikimedia.org/wikipedia/commons/0/0d/Plate_6-_Ulysses_driving_a_burning_stake_into_Polyphemus%27_eye_Met_DP885436.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original"/>
+               <head>Odyssée 9, vers 379-414</head>
                <p>
                   <seg ana="#scene">
                      <lb/>Partout sur la paupière et le sourcil grillait l’ardeur
