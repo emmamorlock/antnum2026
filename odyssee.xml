@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Exercice de balisage TEI - pour LEAF Writer</title>
+            <title>Exercice de balisage TEI - perspective "narrative"</title>
          </titleStmt>
          <publicationStmt>
             <p>Non publié, document de formation</p>
@@ -35,9 +36,16 @@
       <body>
          <div type="book" n="9">
             <div type="passage" n="379-414">
-               <pb
-                  facs="https://upload.wikimedia.org/wikipedia/commons/0/0d/Plate_6-_Ulysses_driving_a_burning_stake_into_Polyphemus%27_eye_Met_DP885436.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original&amp;width=800"/>
                <head>Odyssée 9, vers 379-414</head>
+               <!-- structure narrative -->
+               <figure>
+                  <head>Planche 6 : Ulysse enfonçant un pieu ardent dans l'œil de Polyphème</head>
+                  <figDesc>Imprimé. Bartolomeo Crivellari, dessinateur intermédiaire ; Domenico Maria Fratta, d'après Pellegrino Tibaldi (Metropolitan
+                     Museum of Art, n° d'inv. 62.602.525(1))</figDesc>
+                  <graphic width="800px"
+                     url="https://upload.wikimedia.org/wikipedia/commons/0/0d/Plate_6-_Ulysses_driving_a_burning_stake_into_Polyphemus%27_eye_Met_DP885436.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original&amp;width=800"
+                  />
+               </figure>
                <p>
                   <seg ana="#scene">
                      <lb/>Partout sur la paupière et le sourcil grillait l’ardeur
@@ -52,16 +60,15 @@
                      <lb/>nous nous enfuîmes apeurés ; alors, il arracha
                      <lb/>le pieu qu’un sang nombreux salissait de son œil,
                      <lb/>le jeta loin de lui de ses mains, affolé,
-                     <lb/>et à grands cris héla les <name><persName key="cyclops" ref="http://www.wikidata.org/entity/Q128430"
-                        >Cyclopes</persName></name> qui habitaient
+                     <lb/>et à grands cris héla les <name>Cyclopes</name> qui habitaient
                      <lb n="400"/> dans les grottes des alentours, sur les cimes venteuses.</seg>
                   <seg ana="#scene">
                      <lb/>En entendant ses cris, ils accoururent de partout
                      <lb/>et, demeurés dehors, lui demandèrent ses ennuis ;</seg>
                   <seg ana="#discours">
                      <lb/>
-                     <said who="#cyclopes" aloud="true" direct="true"> Quel mal t’accable, <persName ref="#polypheme"
-                           ><persName>Polyphème</persName></persName>, pour que tu cries ainsi
+                     <said who="#cyclopes" aloud="true" direct="true"> Quel mal t’accable, <persName ref="#polypheme">Polyphème</persName>, pour que
+                        tu cries ainsi
                         <lb/>dans la céleste nuit, et nous empêches de dormir ?
                         <lb n="405"/>Serait-ce qu’un mortel emmène malgré toi tes bêtes ?
                         <lb/>Serait-ce qu’on te tue par la ruse ou la force ?</said>
