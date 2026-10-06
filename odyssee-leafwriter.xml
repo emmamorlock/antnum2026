@@ -145,7 +145,7 @@
                      <lb/>et, demeurés dehors, lui demandèrent ses ennuis ;</seg>
                   <seg ana="#discours">
                      <lb/>
-                     <said who="#cyclopes" aloud="true" direct="true"> Quel mal t’accable, <persName ref="#polypheme">Polyphème</persName>, pour que
+                     <said who="#cyclopes" aloud="true" direct="true"> Quel mal t’accable, <persName ref="#polypheme"><persName>Polyphème</persName></persName>, pour que
                         tu cries ainsi
                         <lb/>dans la céleste nuit, et nous empêches de dormir ?
                         <lb n="405"/>Serait-ce qu’un mortel emmène malgré toi tes bêtes ?
